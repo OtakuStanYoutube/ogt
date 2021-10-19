@@ -155,8 +155,13 @@
   margin-bottom: 2rem;
 }
 .faq .faq-container .faq-heading h2 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 64px;
+}
+@media (max-width: 768px) {
+  .faq .faq-container .faq-heading h2 {
+    font-size: 2.2rem;
+  }
 }
 .faq .faq-container .faq-content {
   width: 100%;
@@ -174,6 +179,12 @@
 .purple {
   background-color: #542241;
   color: #fff;
+  font-size: 1.6rem;
+}
+@media (max-width: 768px) {
+  .purple {
+    font-size: 1rem;
+  }
 }
 
 .footer {

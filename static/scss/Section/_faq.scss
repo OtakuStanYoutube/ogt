@@ -19,8 +19,12 @@
       margin-bottom: 2rem;
 
       h2 {
-        font-size: 2rem;
-        font-weight: bold;
+        font-weight: 600;
+        font-size: 64px;
+
+        @media (max-width: 768px) {
+          font-size: 2.2rem;
+        }
       }
     }
 
@@ -34,12 +38,17 @@
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
-.accordion-flush .accordion-item .accordion-button{
-    background-color: #542241;
-    color: #fff;
+.accordion-flush .accordion-item .accordion-button {
+  background-color: #542241;
+  color: #fff;
 }
 
 .purple {
   background-color: #542241;
   color: #fff;
+  font-size: 1.6rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
