@@ -1,7 +1,16 @@
+@use "./Section/hero";
+@use "./Section/about";
+@use "./Section/sponser";
+@use "./Section/faq";
+@use "./Section/footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -15,4 +24,8 @@ a {
 
 .navbar-purple {
   background-color: #2e1324;
+
+  .navbar-nav {
+    font-size: 1.6rem;
+  }
 }
