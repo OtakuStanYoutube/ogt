@@ -1,5 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+.navbar-purple {
+  background-color: #2e1324;
 }

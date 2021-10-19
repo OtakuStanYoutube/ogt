@@ -4,4 +4,16 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+a:hover {
+  color: #fff !important;
+}
+
+.navbar-purple {
+  background-color: #2e1324;
+}
+
 /*# sourceMappingURL=style.css.map */
