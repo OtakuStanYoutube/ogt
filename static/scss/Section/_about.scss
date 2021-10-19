@@ -1,0 +1,75 @@
+.about {
+  background-color: #2e1324;
+  color: white;
+  padding-block: 5rem;
+
+  .about-season-one {
+    display: flex;
+    flex-direction: row;
+    padding-block: 2.5rem;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;
+
+      .season-one-video {
+        & > * {
+          width: 20rem;
+          height: 13rem;
+        }
+      }
+    }
+
+    .season-one-text {
+      width: 503px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+
+      @media (max-width: 768px) {
+        text-align: center;
+        line-height: 36px;
+        width: 100vw;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .about-teaser {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-block: 2.5rem;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;
+
+      .teaser-video {
+        & > * {
+          width: 20rem;
+          height: 13rem;
+        }
+      }
+    }
+
+    .teaser-text {
+      width: 503px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+
+      @media (max-width: 768px) {
+        text-align: center;
+        line-height: 36px;
+        width: 100vw;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
