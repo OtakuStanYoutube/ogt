@@ -65,6 +65,47 @@
   }
 }
 
+.faq {
+  background-color: #2e1324;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-block: 2rem;
+}
+.faq .faq-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.faq .faq-container .faq-heading {
+  margin-bottom: 2rem;
+}
+.faq .faq-container .faq-heading h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.faq .faq-container .faq-content {
+  width: 100%;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  background-color: #542241;
+  color: #fff;
+}
+
+.purple {
+  background-color: #542241;
+  color: #fff;
+}
+
 .footer {
   background-color: #2e1324;
   color: white;
