@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Otakus Got Talent</strong>
+  <h1>Otakus Got Talent</h1>
 </p>
 
 ## About
