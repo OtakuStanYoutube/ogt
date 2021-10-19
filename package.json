@@ -1,0 +1,15 @@
+{
+  "name": "ogt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass static/scss:static/css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.43.2"
+  }
+}
