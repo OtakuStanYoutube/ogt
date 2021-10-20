@@ -18,21 +18,40 @@
       align-items: center;
       margin-block-end: 2rem;
 
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
       .header-text {
         color: #2e1324;
         h1 {
           font-size: 4.5rem;
           font-weight: bold;
           margin-block-end: -10px;
+
+          @media (max-width: 768px) {
+            font-size: 2rem;
+          }
         }
         p {
           font-size: 3.5rem;
           font-weight: 600;
+
+          @media (max-width: 768px) {
+            line-height: 60px;
+            margin-block-end: 2rem;
+            margin-block-start: 1.5rem;
+          }
         }
       }
       .sponsor-image {
         display: flex;
         margin-block-start: -30px;
+
+        @media (max-width: 768px) {
+          margin-top: 0;
+        }
       }
     }
 
@@ -43,11 +62,20 @@
       justify-content: space-between;
       align-items: center;
 
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
       .sponsor-cta-text {
         width: 60%;
         font-weight: 600;
         font-size: 1.3rem;
         line-height: 29px;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-bottom: 2rem;
+        }
       }
 
       .btn {
@@ -68,27 +96,27 @@
   }
 }
 
-@media Screen and (max-width: 968px) {
-  .sponsor {
-    padding-block: 2rem;
-    .sponsor-container {
-      .sponsor-header {
-        flex-direction: column;
-        .header-text {
-          h1 {
-            font-size: 2.5rem;
-          }
-          p {
-            font-size: 1.2rem;
-          }
-        }
-        .sponsor-image {
-          img {
-            width: 400px;
-            height: 50px;
-          }
-        }
-      }
-    }
-  }
-}
+// @media Screen and (max-width: 968px) {
+//   .sponsor {
+//     padding-block: 2rem;
+//     .sponsor-container {
+//       .sponsor-header {
+//         flex-direction: column;
+//         .header-text {
+//           h1 {
+//             font-size: 2.5rem;
+//           }
+//           p {
+//             font-size: 1.2rem;
+//           }
+//         }
+//         .sponsor-image {
+//           img {
+//             width: 400px;
+//             height: 50px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
