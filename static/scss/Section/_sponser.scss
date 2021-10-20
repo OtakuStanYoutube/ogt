@@ -1,0 +1,38 @@
+.sponsor {
+  background-color: #fff;
+  color: #000;
+  padding-block: 5rem;
+
+  .sponsor-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .sponsor-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-text {
+        color: #2e1324;
+        width: 100%;
+        h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+        p{
+          font-size: 1.2rem;
+        }
+      }
+      .sponsor-image {
+
+        img {
+          width: 400px;
+          height: 70px;
+        }
+      }
+    }
+  }
+}

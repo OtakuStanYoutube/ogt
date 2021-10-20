@@ -135,6 +135,41 @@
   }
 }
 
+.sponsor {
+  background-color: #fff;
+  color: #000;
+  padding-block: 5rem;
+}
+.sponsor .sponsor-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sponsor .sponsor-container .sponsor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsor .sponsor-container .sponsor-header .header-text {
+  color: #2e1324;
+  width: 100%;
+}
+.sponsor .sponsor-container .sponsor-header .header-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.sponsor .sponsor-container .sponsor-header .header-text p {
+  font-size: 1.2rem;
+}
+.sponsor .sponsor-container .sponsor-header .sponsor-image img {
+  width: 400px;
+  height: 70px;
+}
+
 .faq {
   background-color: #2e1324;
   color: white;
