@@ -12,27 +12,71 @@
     align-items: center;
     flex-direction: column;
     .sponsor-header {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       .header-text {
         color: #2e1324;
-        width: 100%;
         h1 {
-          font-size: 2.5rem;
+          font-size: 4.5rem;
           font-weight: bold;
         }
-        p{
-          font-size: 1.2rem;
+        p {
+          font-size: 2.2rem;
         }
       }
       .sponsor-image {
-
         img {
-          width: 400px;
-          height: 70px;
+          width: 500px;
+          height: 100px;
         }
       }
     }
+
+    .sponsor-cta {
+        display: flex;
+        flex-direction: row;
+  
+        .btn {
+          font-weight: 600;
+          font-size: 2.1rem;
+          color: #2e1324;
+          background-color: transparent;
+          border: 3px solid #2e1324;
+          padding: 1rem 2rem;
+          border-radius: 25px;
+  
+          @media (max-width: 768px) {
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
   }
+}
+
+@media Screen and (max-width: 968px) {
+  .sponsor {
+    padding-block: 2rem;
+    .sponsor-container {
+      .sponsor-header {
+        flex-direction: column;
+        .header-text {
+          h1 {
+            font-size: 2.5rem;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+        .sponsor-image {
+          img {
+            width: 400px;
+            height: 50px;
+          }
+        }
+      }
+    }
+  } 
 }
