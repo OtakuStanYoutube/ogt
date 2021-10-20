@@ -8,3 +8,13 @@ registerButton.addEventListener('click', () => {
 discordButton.addEventListener('click', () => {
     window.open("", "_blank");
 });
+
+/*==================== LINK ACTIVE ====================*/
+const linkColor = document.querySelectorAll('.nav-link')
+
+function colorLink(){
+    linkColor.forEach(l => l.classList.remove('active'))
+    this.classList.add('active')
+}
+
+linkColor.forEach(l => l.addEventListener('click', colorLink))
