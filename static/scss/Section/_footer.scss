@@ -26,6 +26,10 @@
     }
 
     .footer-links {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       h5 {
         font-size: 1.2rem;
         font-weight: bold;
@@ -68,6 +72,17 @@
         img {
           width: 200px;
           height: 100px;
+        }
+      }
+
+      .footer-links{
+        align-items: center;
+
+        .sponsor-info {
+          img {
+            width: 250px;
+            height: 40px;
+          }
         }
       }
     }

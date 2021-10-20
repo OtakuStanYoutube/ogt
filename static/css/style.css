@@ -212,6 +212,12 @@
   width: 270px;
   height: 135px;
 }
+.footer .footer-container .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .footer .footer-container .footer-links h5 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -247,6 +253,13 @@
   .footer .footer-container .footer-logo img {
     width: 200px;
     height: 100px;
+  }
+  .footer .footer-container .footer-links {
+    align-items: center;
+  }
+  .footer .footer-container .footer-links .sponsor-info img {
+    width: 250px;
+    height: 40px;
   }
 }
 * {
