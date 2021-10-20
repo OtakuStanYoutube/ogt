@@ -1,12 +1,17 @@
 const registerButton = document.getElementsByClassName('cta-registration')[0];
 const discordButton = document.getElementsByClassName('cta-discord')[0];
+const sponsorButton = document.getElementsByClassName('cta-sponsor')[0];
 
 registerButton.addEventListener('click', () => {
-    window.open("https://tinyurl.com/OGT-Registration", "_blank");
+    window.open("https://forms.gle/WWRsDqcdxPuJhQGp8", "_blank");
 });
 
 discordButton.addEventListener('click', () => {
-    window.open("", "_blank");
+    window.open("https://discord.gg/spnFKpRwne", "_blank");
+});
+
+sponsorButton.addEventListener('click', () => { 
+    window.open("https://weebshop04.wixsite.com/mysite", "_blank");
 });
 
 /*==================== LINK ACTIVE ====================*/
