@@ -11,7 +11,7 @@ discordButton.addEventListener('click', () => {
 });
 
 sponsorButton.addEventListener('click', () => { 
-    window.open("https://weebshop04.wixsite.com/mysite", "_blank");
+    window.open("https://www.instagram.com/weebshop.in/", "_blank");
 });
 
 /*==================== LINK ACTIVE ====================*/
