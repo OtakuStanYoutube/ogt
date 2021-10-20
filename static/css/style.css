@@ -343,17 +343,30 @@
 
 a {
   text-decoration: none !important;
-  color: #fff !important;
-}
-a:hover {
-  color: #fff !important;
 }
 
 .navbar-purple {
   background-color: #2e1324;
 }
+.navbar-purple .nav-container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
 .navbar-purple .navbar-nav {
   font-size: 1.6rem;
+}
+.navbar-purple .navbar-nav .nav-link {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-purple .navbar-nav .nav-link:hover {
+  color: #542241;
+}
+.navbar-purple .navbar-nav .active {
+  color: #542241 !important;
 }
 .navbar-purple .navbar-toggler .navbar-toggler-icon {
   color: white;

@@ -15,18 +15,31 @@
 
 a {
   text-decoration: none !important;
-  color: #fff !important;
-
-  &:hover {
-    color: #fff !important;
-  }
 }
 
 .navbar-purple {
   background-color: #2e1324;
+  .nav-container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
 
   .navbar-nav {
     font-size: 1.6rem;
+    .nav-link {
+      color: #fff;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: #542241;
+      }
+    }
+
+    .active {
+      color: #542241 !important;
+    }
   }
 
   .navbar-toggler {
