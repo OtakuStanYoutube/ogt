@@ -1,5 +1,10 @@
+<a href="#">
 <p align="center">
-  <h1>Otakus Got Talent</h1>
+<img src="./assets/main3-removebg-preview.png"/>
+</p>
+</a>
+<p align="center">
+  <strong>Otakus Got Talent</strong>
 </p>
 
 ## About
