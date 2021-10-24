@@ -1,15 +1,5 @@
-const registerButton = document.getElementsByClassName('cta-registration')[0];
-const registerButton2 = document.getElementsByClassName('cta-register')[0];
 const discordButton = document.getElementsByClassName('cta-discord')[0];
 const sponsorButton = document.getElementsByClassName('cta-sponsor')[0];
-
-registerButton.addEventListener('click', () => {
-    window.open("https://forms.gle/WWRsDqcdxPuJhQGp8", "_blank");
-});
-
-registerButton2.addEventListener('click', () => {
-    window.open("https://forms.gle/WWRsDqcdxPuJhQGp8", "_blank");
-});
 
 
 discordButton.addEventListener('click', () => {
